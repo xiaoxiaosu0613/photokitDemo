@@ -13,6 +13,12 @@
 		3B28088F1E7640060063803D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B28088D1E7640060063803D /* Main.storyboard */; };
 		3B2808911E7640060063803D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B2808901E7640060063803D /* Assets.xcassets */; };
 		3B2808941E7640060063803D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2808921E7640060063803D /* LaunchScreen.storyboard */; };
+		3B28089F1E7640A70063803D /* AssetEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B28089E1E7640A70063803D /* AssetEmptyView.m */; };
+		3B2808A11E7640F10063803D /* Resouce.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3B2808A01E7640F10063803D /* Resouce.bundle */; };
+		3B2808A41E7641100063803D /* AssetGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2808A31E7641100063803D /* AssetGroupViewController.m */; };
+		3B2808A71E7641730063803D /* AssetViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2808A61E7641730063803D /* AssetViewCell.m */; };
+		3B2808AA1E7641A70063803D /* AssetGroupViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2808A91E7641A70063803D /* AssetGroupViewCell.m */; };
+		3B2808AD1E7642190063803D /* AssetGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2808AC1E7642190063803D /* AssetGridViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,18 @@
 		3B2808901E7640060063803D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B2808931E7640060063803D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B2808951E7640060063803D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B28089C1E7640660063803D /* PickerConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickerConfig.h; sourceTree = "<group>"; };
+		3B28089D1E7640A70063803D /* AssetEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetEmptyView.h; sourceTree = "<group>"; };
+		3B28089E1E7640A70063803D /* AssetEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetEmptyView.m; sourceTree = "<group>"; };
+		3B2808A01E7640F10063803D /* Resouce.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resouce.bundle; sourceTree = "<group>"; };
+		3B2808A21E7641100063803D /* AssetGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetGroupViewController.h; sourceTree = "<group>"; };
+		3B2808A31E7641100063803D /* AssetGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetGroupViewController.m; sourceTree = "<group>"; };
+		3B2808A51E7641730063803D /* AssetViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetViewCell.h; sourceTree = "<group>"; };
+		3B2808A61E7641730063803D /* AssetViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetViewCell.m; sourceTree = "<group>"; };
+		3B2808A81E7641A70063803D /* AssetGroupViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetGroupViewCell.h; sourceTree = "<group>"; };
+		3B2808A91E7641A70063803D /* AssetGroupViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetGroupViewCell.m; sourceTree = "<group>"; };
+		3B2808AB1E7642190063803D /* AssetGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetGridViewController.h; sourceTree = "<group>"; };
+		3B2808AC1E7642190063803D /* AssetGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetGridViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 		3B2808831E7640060063803D /* PhotoPickerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3B28089B1E7640270063803D /* PickerOC */,
 				3B2808871E7640060063803D /* AppDelegate.h */,
 				3B2808881E7640060063803D /* AppDelegate.m */,
 				3B28088A1E7640060063803D /* ViewController.h */,
@@ -77,6 +96,25 @@
 				3B2808851E7640060063803D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B28089B1E7640270063803D /* PickerOC */ = {
+			isa = PBXGroup;
+			children = (
+				3B2808A01E7640F10063803D /* Resouce.bundle */,
+				3B28089C1E7640660063803D /* PickerConfig.h */,
+				3B28089D1E7640A70063803D /* AssetEmptyView.h */,
+				3B28089E1E7640A70063803D /* AssetEmptyView.m */,
+				3B2808A21E7641100063803D /* AssetGroupViewController.h */,
+				3B2808A31E7641100063803D /* AssetGroupViewController.m */,
+				3B2808A51E7641730063803D /* AssetViewCell.h */,
+				3B2808A61E7641730063803D /* AssetViewCell.m */,
+				3B2808A81E7641A70063803D /* AssetGroupViewCell.h */,
+				3B2808A91E7641A70063803D /* AssetGroupViewCell.m */,
+				3B2808AB1E7642190063803D /* AssetGridViewController.h */,
+				3B2808AC1E7642190063803D /* AssetGridViewController.m */,
+			);
+			path = PickerOC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,7 +148,7 @@
 				TargetAttributes = {
 					3B2808801E7640060063803D = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -137,6 +175,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B2808A11E7640F10063803D /* Resouce.bundle in Resources */,
 				3B2808941E7640060063803D /* LaunchScreen.storyboard in Resources */,
 				3B2808911E7640060063803D /* Assets.xcassets in Resources */,
 				3B28088F1E7640060063803D /* Main.storyboard in Resources */,
@@ -150,9 +189,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B2808A41E7641100063803D /* AssetGroupViewController.m in Sources */,
+				3B2808AD1E7642190063803D /* AssetGridViewController.m in Sources */,
+				3B2808AA1E7641A70063803D /* AssetGroupViewCell.m in Sources */,
 				3B28088C1E7640060063803D /* ViewController.m in Sources */,
+				3B28089F1E7640A70063803D /* AssetEmptyView.m in Sources */,
 				3B2808891E7640060063803D /* AppDelegate.m in Sources */,
 				3B2808861E7640060063803D /* main.m in Sources */,
+				3B2808A71E7641730063803D /* AssetViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +314,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PhotoPickerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Arp77.PhotoPickerDemo;
@@ -281,6 +326,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PhotoPickerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Arp77.PhotoPickerDemo;

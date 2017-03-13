@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "AssetGroupViewController.h"
 
 @interface ViewController ()
 
@@ -14,16 +15,18 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
+- (IBAction)presentView:(id)sender
+{
+    UINavigationController *nav = [[UINavigationController alloc]init];
+    [nav setViewControllers:@[[AssetGroupViewController new]]];
+    [self presentViewController:nav animated:YES completion:nil];
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
-
 
 @end
